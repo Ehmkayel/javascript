@@ -25,3 +25,33 @@ console.log(lists);
 const paragraph = document.getElementById("text");
 // console.log(paragraph.innerText);
 paragraph.innerText += "I'm falling in love with javascript";//to join the old text and the new one together
+
+//To change the content of all the elements
+ 
+// const lists = document.querySelectorAll("li");
+// lists.forEach(list => {
+//     list.innerText += "done with this topic";
+// })
+
+//get attributes
+const links = document.querySelector("a");
+
+console.log(links.getAttribute("href"));
+//set attributes
+links.setAttribute("href", "https://google.com");// this will change the first reference to the new one declared here
+links.setAttribute("style", "color: red;");
+
+//click events
+const button = document.querySelector("button");
+button.addEventListener("click", () => {
+    console.log("thanks for your time");
+});
+
+//removing an elements from the dom
+
+// const ul = document.querySelector("ul");
+// ul.remove(); //this will remove the ul from the webpage
+
+//EVENT bubbling
+
+
