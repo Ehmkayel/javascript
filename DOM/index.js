@@ -52,4 +52,14 @@ button.addEventListener("click", () => {
 // const ul = document.querySelector("ul");
 // ul.remove(); //this will remove the ul from the webpage
 
+//Bom (Browser object model)
+
+//change location of webpage
+alert(location.href) //this will show the current url
+//change 
+if (confirm("open Google")){
+    location.href = "https://google.com"; //this will redirect the browser to this location specified
+}
+alert("you are browsing from:" + navigator.userAgent)
+
 
