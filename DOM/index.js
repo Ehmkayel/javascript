@@ -52,6 +52,4 @@ button.addEventListener("click", () => {
 // const ul = document.querySelector("ul");
 // ul.remove(); //this will remove the ul from the webpage
 
-//EVENT bubbling
-
 

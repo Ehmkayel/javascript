@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: burlywood;
+}
+form{
+    width: 100%;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background: wheat;
+}
+input{
+    display: block;
+    padding: 10px;
+    margin: 20px auto;
+}
+input[type=submit]{
+    cursor: pointer;
+}
