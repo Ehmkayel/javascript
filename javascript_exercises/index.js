@@ -44,3 +44,55 @@ console.log(totalAmountLeft)
 document.body.innerHTML = "";
 
 
+// lesson2 Exercises Solution
+// At a restaurant, you order 1 soup for $10, 3 burgers for $8 each,and 1 ice cream for $5. Use javascript to calculate the cost of the order
+const soup = 1 * 10;
+const burgers = 3 * 8;
+const iceCream = 1 * 5;
+const costOfOrder = soup + burgers + iceCream;
+console.log(costOfOrder) 
+
+// you're at a restaurant with 2friends(3 people in total) and make the same order as above. calculate how much each person pays
+const numberOfPeople = 3;
+const individual = 1;
+const order = costOfOrder;
+const each = order * individual;
+console.log("each person pays:", each);
+
+// calculate the total cost of a toaster($18.50) and 2 shirts($7.50 each)
+const toaster = 18.50;
+const shirts = 2 * 7.50;
+const totalCosts = toaster + shirts;
+console.log(totalCosts);
+
+// calculate a 10% for the total in above
+const tax = 10/100;
+const totalWithTax = tax * totalCosts;
+console.log(totalWithTax);
+
+// calculate a 20% tax for the totalCosts(remember that 1% = 1/100, so 20% = 20/100 = 0.2)
+const taxx = 0.2;
+const sum = taxx * totalCosts;
+console.log(sum)
+
+// we'll use javascript to convert temperatures from celsius to Fahrenheit. The formula is 
+// fahrenheit = (celsius * 9/5) + 32
+// celsius = (fahrenheit - 32) * 5/9
+
+let temperature = 25;
+const temFahrenheit =  (25 * (9 / 5)) + 32;
+console.log(temFahrenheit)
+
+temperature = 86;
+const temCelsius = (86 - 32) * (5 / 9);
+console.log(temCelsius)
+
+temperature = -5;
+const tempeFahrenheit = (-5 * (9 / 5)) + 32;
+console.log(tempeFahrenheit)
+
+
+// lesson 3 Exercises 
+
+
+
