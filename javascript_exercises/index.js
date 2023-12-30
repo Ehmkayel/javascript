@@ -92,7 +92,48 @@ const tempeFahrenheit = (-5 * (9 / 5)) + 32;
 console.log(tempeFahrenheit)
 
 
-// lesson 3 Exercises 
+// lesson 3 Exercises Solutions
+//  create the text "my name is:" as a string
+let name = "my name is:"
 
+// create your name as a string
+const myName = "Lamidi Morufat Kajogbola"
+
+// using concatenation, add the 2 strings from above together to create the text: "my name is: _"(replace _ with your name)
+const myNames = "my name is: " + "Lamidi Morufat Kajogbola"
+console.log(myNames)
+
+// at a restaurant, you order 1 coffee ($5) and 1 bagel($3). using math, calculate the total cost, and using concatenation, create the text: "Total cost: $_"(replace _ with the total you calculated)
+let costOfCoffee = 1 * 5;
+let costOfBagel = 1 * 3;
+let totalCostSpent = "Total cost: $" + (costOfCoffee + costOfBagel);
+console.log(totalCostSpent)
+
+// do the same thing as above but use template string and interpolation
+totalCostSpent = `Total cost: $${costOfCoffee + costOfBagel}` ;
+console.log(totalCostSpent)
+
+// display the above in a popup using alert
+alert(`Total cost: $${costOfCoffee + costOfBagel}`)
+
+// you order 1 coffee ($5.99) and 1 bagel ($2.95). Using math, calculate the total cost, and using concatenation, create the text: "Total cost: $_"
+costOfCoffee = 1 * 599;
+costOfBagel = 1 * 295;
+const costs = (costOfCoffee + costOfBagel) / 100;
+totalCostSpent = "Total cost: $ " + costs;
+console.log(totalCostSpent)
+
+// do the same thing as above but use template string and interpolation
+console.log(`${totalCostSpent}`)
+
+// display the text above in a popup
+alert(`${totalCostSpent}`)
+
+// using a multi-line string, create the text from above and add a line of text underneath: "Thank you, come again!". Display both lines in a popup
+alert(`${totalCostSpent}
+Thank you, come again!
+`)
+
+// lesson 4 Exercises solutions
 
 
