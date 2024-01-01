@@ -22,9 +22,9 @@ const total = even + even - odd;
 console.log(total)
 
 // use innerHtml to write good morning on the web
-document.body.innerHTML = "Good Morning!";
-// use innerHTML to write your name on the web
-document.body.innerHTML = "Lamidi Morufat Kajogbola";
+// document.body.innerHTML = "Good Morning!";
+// // use innerHTML to write your name on the web
+// document.body.innerHTML = "Lamidi Morufat Kajogbola";
 // you order a t-shirt for $10, socks for $8, and dinner plates for $20. use javascript tp calculate the total cost of your order 
 const tShirt = 10;
 const socks = 8;
@@ -41,7 +41,7 @@ const totalAmountLeft = earn + account - (spend + dinner);
 console.log(totalAmountLeft)
 
 // use innerHTML to make the webpage blank
-document.body.innerHTML = "";
+// document.body.innerHTML = "";
 
 
 // lesson2 Exercises Solution
@@ -134,6 +134,9 @@ alert(`${totalCostSpent}
 Thank you, come again!
 `)
 
-// lesson 4 Exercises solutions
+
+
+
+
 
 

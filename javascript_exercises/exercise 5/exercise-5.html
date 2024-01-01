@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+</head>
+<body>
+
+
+
+
+    <!-- create a <script> element. inside the <script>, create a variable called "name", and save your name in this variable (as a string)  -->
+    <script>
+        const name = "Lamidi Morufat Kajogbola";
+        // continuing from above, display the message "my name is: ${name}" in the console(insert the "name" variable created in above into the message)
+        console.log(`My name is: ${name}`)
+
+        // at a restaurant, you order 1 coffee ($5), 2 bagels($3 each), and 1 soup($9). calculate the cost and save it in a variable called "cost".
+        const coffee = 1 * 5;
+        const bagels = 2 * 3;
+        const soup = 1 * 9;
+        const cost = coffee + bagels + soup;
+
+        // continuing from above, display "cost of food: $${cost}" in the console
+        console.log(`Cost of food: $${cost}`)
+
+        // let's say the restaurant charges a 10% tax. Using the "cost" variable from above, calculate the tax(hint: multiply by 0.1), and save the result in a variable
+        const tax = 0.1
+        const taxCost = cost + tax
+
+        // continuing from above, display "tax(10%): $${tax}" in the console
+        console.log(`Tax(10%): $${tax}`)
+
+        // continuing from above, calculate the total(cost + tax), save it in a variable called "totalCost", and display the message "Total cost: $${totalCost}" in the console
+        const totalCost = taxCost
+        console.log(`Total cost: $${taxCost}`)
+
+    </script>
+</body>
+</html>
