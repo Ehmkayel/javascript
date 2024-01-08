@@ -1,4 +1,4 @@
-# This file will contain the questions to SuperSimpleDev exercises questions from his course javascript beginner to Pro
+This folder will contain SuperSimpleDev exercises questions from his course javascript beginner to Pro and my solutions to the exercises
 
 # Lesson 1 Exercises:
  - Use alert(...);to display "Good morning!" in a popup
