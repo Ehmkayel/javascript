@@ -14,6 +14,8 @@
       <li>pipeline operator</li>
       <li>Javascript in operator</li>
       <li>Javascript Grouping Operator</li>
+      <li>Grouping operator</li>
+      <li>Javascript short circuiting operators</li>
     </ul>
     <script>
       // delete operator
@@ -26,6 +28,21 @@
 
       console.log(delete profile.course);
       console.log(profile);
+
+      // short circuiting operators
+
+      function ramadan() {
+        // Or short circuit
+        console.log(true || false);
+        console.log(false || true);
+
+        // And short circuit
+        console.log(false && true);
+        console.log(true && false);
+        console.log(true && true);
+      }
+
+      ramadan();
     </script>
   </body>
 </html>

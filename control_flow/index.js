@@ -1,3 +1,18 @@
+// for loop: the for loop contains the initialization, condition and increment/decrement.
+// for(initialization; condition; increment/decrement){
+//     statement(s)
+// }
+for(let i = 0; i < 5; i++){
+    console.log("Coding is fun!");
+}
+
+// while loop
+let value = 2;
+while (value <= 12){
+    console.log(value);
+    value += 2;
+}
+
 // //if statement
 // const age = 55;
 // if(age < 70){
@@ -71,3 +86,10 @@ if(true){
 
 }
 console.log("Accessing outside the scope:", age);
+
+// break statement: it is used to terminate the execution of the loop or statement when the condition is true
+for(let i = 0; i < 6; i++){
+    if (i == 4)
+    break;
+    console.log(i);
+}
