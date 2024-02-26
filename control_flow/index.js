@@ -93,3 +93,10 @@ for(let i = 0; i < 6; i++){
     break;
     console.log(i);
 }
+
+// continue statement
+for(let i = 0; i < 6; i++){
+    if (i % 2 == 4)
+    continue;
+    console.log(i);
+}
