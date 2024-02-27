@@ -23,3 +23,17 @@ try{
 catch (err){
     console.log(err);
 }
+
+// finally runs unconditionally after the execution of the try and catch
+// finally can override the message of the try
+
+try {
+   console.log("Ramadan is my name")
+}
+catch(err) {
+     console.log("I love reading")
+} 
+finally {
+    console.log("joy is coming")
+}
+        

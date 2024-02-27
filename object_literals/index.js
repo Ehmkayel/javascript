@@ -1,3 +1,10 @@
+// creating an object
+
+const newObject = {};
+newObject.age = 35;
+console.log(newObject)
+
+
 //object literals
 
 // let user = {
@@ -32,6 +39,16 @@ let user = {
 user.login()//to call the method
 user.logTweets()
 console.log(this)
+
+// Object constructor
+function data(firstName, lastName){
+    this.firstName = firstName;
+    this.lastName = lastName;
+}
+let firstData = new data("Ramadan", "Lamidi");
+let secondData = new data("Lamidi", "Ramadan");
+console.log(firstData.firstName);
+console.log(`${secondData.firstName} ${secondData.lastName}`);
 
 //math object
 const value = 10 ** 2.4;
