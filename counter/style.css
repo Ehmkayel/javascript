@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background: plum; 
+    
+}
+.card{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center; 
+    color: plum; 
+    box-shadow: 2px 2px 3px purple; 
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 1.5em;
+    text-transform:uppercase
+}
+.card p{
+    font-size: 2.4em;
+    margin: 10px auto;
+    
+}
+
+.container{
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-around; 
+           
+}
+
+button{
+   cursor: pointer;
+    padding: 8px 15px;
+    background: white;
+    color: plum; 
+    border: none;
+}
