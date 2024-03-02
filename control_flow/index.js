@@ -30,8 +30,6 @@ if(wahab == "short"){
 
 alert("wahab is my friend")
 
-}else {
-
 }
 // //
 
@@ -65,6 +63,11 @@ alert("wahab is my friend")
 //     console.log("done with this task")
 // }
 // logical OR (This is used to check if one condition is true)
+let data = 9;
+let condition = data > 2
+if(condition){
+    console.log("coding is fun")  
+}
 
 let password = "short34"
  
@@ -99,4 +102,21 @@ for(let i = 0; i < 6; i++){
     if (i % 2 == 4)
     continue;
     console.log(i);
+}
+
+// switch
+
+let number = 9;
+let conditions = number > 2
+switch(true){
+    case conditions: 
+        console.log("I love me")
+        break;
+
+    case number === 2:
+        console.log("coding is fun")
+        break;
+
+    default:
+        break
 }
