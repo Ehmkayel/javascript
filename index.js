@@ -25,3 +25,18 @@ while(z < 7){
     console.log("number is:", z);
     z++
 }
+
+// using prompt
+
+let school = prompt("What coding school do you attend?", "devCareer");
+
+alert(`The name of your school is ${school}`);
+
+// using confirm
+
+school = confirm("Is the name of the school devCareer?");
+alert(school);
+
+// 
+let name = prompt("what's the name?", "");
+alert(name);
