@@ -1,3 +1,26 @@
+// string when subtracted, multiplied, divided, and remainder with a number is converted to a number
+
+alert( 22 - '9' ); // 13, "9" converts to a number
+alert( '10' / '5' ); // 2, converts both operands(arguements) to numbers
+
+//when two variables with the value of string are added together, the result is going to be string if the values are not converted 
+
+let apple = "6";
+let gauva = "23";
+
+console.log(apple + gauva); //623, it will concatenates the two variables
+
+// when two variables with value of string are added together but converted 
+let rice = "45";
+let beans = "72";
+
+console.log(+rice + +beans); //117, it will be converted to a number and added together(using unary plus) //0r
+console.log(Number(rice) + Number(beans));
+
+
+
+
+
 // for loops
 // The below code will keep executing until it gets to 19 because the condition specified was when z less than 20
 for(let z = 10; z < 20; z++) {
