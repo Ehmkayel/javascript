@@ -63,3 +63,11 @@ alert(school);
 // 
 let name = prompt("what's the name?", "");
 alert(name);
+
+// nullish coalescing operator "??"
+
+let user;
+alert(user ?? "Ramadan") //the result is going to display "Ramadan" cause user was not assigned a value. In a case where the variable user was assigned a value, the value assigned is going to be displayed rather than the default. example below
+
+user = "Morufat";
+alert(user ?? "Ramadan")
