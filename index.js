@@ -71,3 +71,13 @@ alert(user ?? "Ramadan") //the result is going to display "Ramadan" cause user w
 
 user = "Morufat";
 alert(user ?? "Ramadan")
+
+// The important difference between "||" AND "?? is that:
+
+// || returns the first truthy value.
+// ?? returns the first defined value.
+// Example
+
+let myAge = 0;
+console.log(myAge || 90)
+console.log(myAge ?? 50)
