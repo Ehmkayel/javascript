@@ -86,8 +86,34 @@ let fruits = ["mango", "pineapple", "orange", "lemon", "grape", "strawberry", "a
 fruits.forEach((fruit, index) => {
     console.log(index, fruit);
 });
-    
 
+
+// IIFE : Immediately Invocable Function Expressions
+    
+(function(){
+    console.log('IIFE Ran')
+})();
+
+(function(name){
+    console.log('IIFE Ran ' + name)
+})('Ramadan');
+
+const todo = {
+    add: function(){
+        console.log('Add todo...')
+    },
+    edit: function(id){
+        console.log(`Edit todo ${id}`)
+
+    }
+}
+
+todo.delete = function(){
+    console.log('DElete todo')
+}
+
+todo.add()
+todo.edit(2)
 
 
 
