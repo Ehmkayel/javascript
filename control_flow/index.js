@@ -139,8 +139,14 @@ const users = [
 ]
 
 const ids = users.map(function(user){
-  return user.id
+  return user.id 
 })
 
 console.log(ids)
 
+ let i = 0
+ while(i < 12 ){
+  console.log('Number' + i)
+  i++
+ }
+ 
